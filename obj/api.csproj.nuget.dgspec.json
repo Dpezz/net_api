@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Pezz/Sites/base/backend/net-api/api.csproj": {}
+  },
+  "projects": {
+    "/Users/Pezz/Sites/base/backend/net-api/api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Pezz/Sites/base/backend/net-api/api.csproj",
+        "projectName": "api",
+        "projectPath": "/Users/Pezz/Sites/base/backend/net-api/api.csproj",
+        "packagesPath": "/Users/Pezz/.nuget/packages/",
+        "outputPath": "/Users/Pezz/Sites/base/backend/net-api/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Pezz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools.DotNet": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
