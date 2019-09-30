@@ -10,7 +10,7 @@ Required:
 - dotnet
 
 ```bash
-# serve with hot reload at localhost:5001
+# up server at localhost:5001
 $ dotnet run
 $ dotnet watch run
 
